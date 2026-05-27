@@ -3,27 +3,32 @@
 		{
 			"interface": "LTA",
 			"value": "1.9",
-			"date":	"20230406"
+			"date": "20230406"
 		},
-        {
+		{
 			"interface": "PRIP",
-			"value": "1.9",
-			"date":	"20221003"
+			"value": "2.0",
+			"date": "20230426"
 		},
-        {
+		{
 			"interface": "AUXIP",
+			"value": "1.5",
+			"date": "20230426"
+		},
+		{
+			"interface": "DA",
 			"value": "1.4",
-			"date":	"20221003"
+			"date": "20230302"
 		},
 		{
 			"interface": "EDRS",
 			"value": "4.0",
-            "date":	"20210914"
+			"date": "20210914"
 		},
 		{
 			"interface": "CADIP",
-			"value": "1.2",
-            "date":	"20230420"
+			"value": "1.3",
+			"date": "20231012"
 		}
-    ]
+	]
 }

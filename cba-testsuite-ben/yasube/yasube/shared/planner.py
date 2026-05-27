@@ -1,5 +1,5 @@
 import logging
-from typing import List, NamedTuple, Type
+from typing import List, NamedTuple, Optional, Type
 
 import prefect
 from prefect.executors import LocalDaskExecutor
@@ -36,11 +36,12 @@ class Planner:
         self.execution_plan = execution_plan
         self.config = config
 
-    def _load_scenario(self, path: str) -> Type[TestScenario]:
+    def _load_scenario(self, path: str) -> Optional[Type[TestScenario]]:
         try:
             return import_string(path)
         except ImportError as exc:
             logger.error(repr(exc))
+            return None
 
     def execute(self):
         for scenario_config, platform_config in self.execution_plan:

@@ -1,12 +1,13 @@
 
 
-# Conformance SW Test Suite v1.3.0
+# Conformance SW Test Suite v1.4.0
 
 The Conformance Test Suite software package verifies the compliance of CSC Ground Segment Interface Delivery Points (IDP) with the corresponding ICD specifications. The following interfaces are currently tested:
 
 * LTA: LTA Interface Point
 * PRIP: Production Interface Point
 * AUXIP: Auxiliary Data Interface Point
+* DA: Data Access Interface Point
 * EDRS: EDRS Interface Point
 * CADIP: CADU Interface delivery Point
 

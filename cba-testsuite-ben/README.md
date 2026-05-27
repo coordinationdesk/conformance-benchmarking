@@ -1,11 +1,12 @@
 
-# Benchmarking SW Test Suite v1.3.0
+# Benchmarking SW Test Suite v1.4.0
 
 The Benchmarking Test Suite software addresses the performance and availability of those interfaces by performing a regular evaluation of the Ground Segment Services interfaces and comparing their results with pre-established thresholds, focusing on the operational criteria of query & download performance and availability of the interface:
 
 * LTA: LTA Interface Point
 * PRIP: Production Interface Point
 * AUXIP: Auxiliary Data Interface Point
+* DA: Data Access Interface Point
 * CADIP: CADU Interface Delivery Point Specification
 
 The Benchmarking Test Suite is an ad-hoc Python application and is deployed as a set of two applications:

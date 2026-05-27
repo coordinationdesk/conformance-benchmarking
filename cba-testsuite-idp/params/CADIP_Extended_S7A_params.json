@@ -1,9 +1,9 @@
 [
 	{
-		"Satellite":"CO1",
+		"Satellite":"S7A",
 		"PropertyAsc":"PublicationDate",
 		"PropertyDesc":"PublicationDate",
 		"top":"10",
-		"skip":"10"
+		"skip":"1"
 	}
 ]

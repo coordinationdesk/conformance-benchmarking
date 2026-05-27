@@ -1,0 +1,15 @@
+[{
+	"ProductTypeCode":"contains(Name,'_AUX_') or contains(Name,'_AX_')",
+	"PropertyAsc":"PublicationDate",
+	"PropertyDesc":"PublicationDate",
+	"top":"10",
+	"skip":"10",
+	"OrderByParam":"PublicationDate asc",
+	"NotificationEndpoint":"https://yourmockid.mock.pstmn.io/notification",
+	"NotificationEpUsername":"myserviceuser",
+	"NotificationEpPassword":"yourpassword",
+	"ServerLogsUrl":"https://api.getpostman.com/mocks/yourmockid/call-logs?include=request.body",
+	"api_key":"yourapikey",
+	"ProductTypeCodeForWorkflow":"contains(Name,'S2_L1C_L2A')"
+}
+]

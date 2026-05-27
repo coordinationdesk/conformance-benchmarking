@@ -1,0 +1,17 @@
+[
+	{
+		"ProductTypeCode": "contains(Name,'_L1B_')",
+		"PropertyAsc": "PublicationDate",
+		"PropertyDesc": "PublicationDate",
+		"top": "10",
+		"skip": "10",
+		"FilterParam": "contains(Name,'_L1B_')",
+		"NotificationEndpoint":"https://yourmockid.mock.pstmn.io/notification",
+		"NotificationEpUsername":"myserviceuser",
+		"NotificationEpPassword":"yourpassword",
+		"ServerLogsUrl":"https://api.getpostman.com/mocks/yourmockid/call-logs?include=request.body",
+		"api_key":"yourapikey",
+		"ProductionOrderPriority": 14,
+		"ProductTypeCodeForWorkflow": "contains(Name,'S5P_L1B_')"
+	}
+]

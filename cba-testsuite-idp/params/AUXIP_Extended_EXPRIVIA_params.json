@@ -10,7 +10,6 @@
 	"NotificationEpPassword":"yourpassword",
 	"ServerLogsUrl":"https://api.getpostman.com/mocks/yourmockid/call-logs?include=request.body",
 	"api_key":"yourapikey",
-	"subscription_auth_token":"yourtoken",
 	"ProductionOrderPriority":50
 }
 ]

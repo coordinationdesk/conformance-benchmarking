@@ -111,7 +111,7 @@ class Platform:
         else:
             session_class = OAuth2Session
 
-        credentials = self.auth["credentials"]
+        credentials: OAuthCredentials = self.auth["credentials"]
         if credentials["grant_type"] == OAuthGrantType.PASSWORD.value:
             oauth = session_class(
                 client=LegacyApplicationClient(client_id=credentials["client_id"])
@@ -126,6 +126,7 @@ class Platform:
                 password=credentials["password"],
                 client_id=credentials["client_id"],
                 client_secret=credentials["client_secret"],
+                verify=self.verify_ssl,
                 **kwargs,
             )
         elif credentials["grant_type"] in (
@@ -138,6 +139,7 @@ class Platform:
                 token_url=credentials["token_url"],
                 client_id=credentials["client_id"],
                 client_secret=credentials["client_secret"],
+                verify=self.verify_ssl,
             )
         return session_class(
             client_id=credentials["client_id"],
